@@ -1,6 +1,7 @@
 import { useState } from "react";
-import CVpreview from "./Cvpreview";
+// import CVpreview from "./Cvpreview";
 import Form from "./Form";
+import CvView from "./CvView";
 
 function Main() {
   const [expKey, setExpKey] = useState(1);
@@ -120,7 +121,7 @@ function Main() {
         addEducation={addEducation}
       />
 
-      <CVpreview
+      <CvView
         personalDetails={personalDetails}
         profileHeading={profileHeading}
         profileSummary={profileSummary}

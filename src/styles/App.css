@@ -1,0 +1,239 @@
+.nav-header {
+  background-color: #546167;
+}
+
+.logo {
+  font-size: 32px;
+  margin-right: 10px;
+  color: #546167;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  /* font-size: 30px; */
+  font-weight: 500;
+}
+
+.main-div {
+  display: flex;
+  padding: 40px;
+
+}
+
+.form-container {
+  width: 40%;
+}
+
+.cv-container {
+  /* border: 1px solid black; */
+  width: 21cm;
+  min-height: 29.7cm;
+  /* padding: 2cm; */
+  margin: auto;
+  /* margin: 0px 30px; */
+  /* padding: 50px; */
+  /* width: 55%; */
+  box-shadow: 0 0 5px 5px lightgray;
+  /* height: fit-content; */
+}
+
+.cv-header {
+  min-height: 4cm;
+  background-color: #546167;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.cv-name {
+  font-size: 36px;
+  color: #FFFFFF;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 0.5cm;
+}
+
+.cv-heading {
+  font-size: 20px;
+  color: #FFFFFF;
+  font-weight: 400;
+  text-transform: uppercase;
+  border-top: 2px solid #FFFFFF;
+  padding: 0px 5px;
+  margin-top: 10px;
+}
+
+.cv-subheader {
+  background-color: #EBECEE;
+  padding: 0.3cm 1cm;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.cv-email,
+.cv-phone {
+  color: #293C43;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.email-icon,
+.phone-icon {
+  margin-right: 10px;
+}
+
+.cv-block {
+  padding: 0.5cm 1cm;
+}
+
+.cv-header-block {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  padding: 5px 0px;
+  color: #293C43;
+  border-bottom: 3px solid #546167;
+}
+
+.cv-header-icon {
+  margin-right: 15px;
+}
+
+.cv-block-heading {
+  text-transform: uppercase;
+}
+
+.cv-summary {
+  padding: 10px 0px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.cv-single-experience {
+  margin-top: 20px;
+}
+
+.cv-single-experience-heading {
+  display: flex;
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+.cv-position {
+  font-size: 20px;
+  font-weight: 600;
+  color: #293C43;
+  margin-right: 10px;
+}
+
+.cv-period {
+  font-size: 16px;
+}
+
+.cv-company {
+  font-size: 18px;
+  font-weight: 600;
+  color: #293C43;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-style: italic;
+}
+
+.cv-education-block,
+.cv-experience-block {
+  margin-top: 20px;
+}
+
+.cv-single-education {
+  margin-top: 20px;
+}
+
+.cv-degree {
+  font-size: 18px;
+  font-weight: 600;
+  color: #293C43;
+  font-style: italic;
+}
+
+.cv-education-details {
+  display: flex;
+}
+
+.cv-school {
+  margin-right: 15px;
+}
+
+.cv-container p {
+  text-align: justify;
+}
+
+.form-field {
+  margin-bottom: 20px;
+}
+
+.form-field label {
+  width: 30%;
+}
+
+.form-field input {
+  width: 70%;
+}
+
+.form-button,
+.form-delete-button {
+  border: none;
+  background-color: rgb(207, 226, 255);
+  box-shadow: rgb(222, 226, 230) 0px -1px 0px 0px inset;
+  padding: 8px 15px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.form-delete-button {
+  background-color: rgb(242, 157, 170);
+}
+
+.form-profile-summary {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.form-profile-summary label,
+.form-profile-summary textarea {
+  margin-bottom: 15px;
+}
+
+.single-experience {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid rgb(222, 226, 230);
+  border-radius: 6px;
+}
+
+.form-field-date-block {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.form-field-date-block label {
+  margin-right: 20px;
+}
+
+@media print {
+  body {
+    visibility: hidden;
+  }
+
+  #section-to-print {
+    visibility: visible;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}

@@ -25,7 +25,7 @@ function Main() {
       details:
         "As a Software Engineer at TechNova Solutions, the individual will be responsible for designing, developing, and maintaining web applications that cater to a variety of industries, from finance to healthcare. They will work collaboratively with cross-functional teams to understand user needs and translate them into high-quality software solutions.",
       fromDate: "2021-01-04",
-      toDate: "2024-03-31",
+      toDate: "2025-01-31",
     },
     {
       id: "Innovation Technologies2",

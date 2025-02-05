@@ -12,7 +12,7 @@ function CVpreview({
     <div className="cv-container" id="section-to-print">
       <div className="cv-header">
         <div className="cv-name">
-          {personalDetails.fullname || "Your Name Here"}
+          {personalDetails.fullname || "Your Name Here..."}
         </div>
         {profileHeading && <div className="cv-heading">{profileHeading}</div>}
       </div>
